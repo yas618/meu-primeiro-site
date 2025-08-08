@@ -2,12 +2,53 @@
 * {
     margin: 0px;
     padding: 0;
+    box-sizing: border-box;
 }
 
-h1,
-p {
-    text-align: center;
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+
+
 header {
     background-color: rgb(39, 133, 133);
+    color:rgb(15, 17, 17);
+    padding: 60px;
+    text-align: center;
+    
 }
+
+main{
+    background-color:rgb(209, 216, 216);
+    padding: 48px 38px;
+    width: 100%;
+    flex: 1 ;
+}
+
+/* Seção Sobre mim */
+about-section{ 
+    display: block;
+    width: 80%;
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-bottom: 60px;
+
+ }
+
+ #titulo-sobre-mim {
+    font-size: 35px;
+    
+ }
+.descricao{
+    font-size: 20px;
+    
+}
+.titulo-sobre-mim {
+    font-size: 30px;
+   
+ }
+ 
