@@ -41,6 +41,7 @@ about-section{
 
  #titulo-sobre-mim {
     font-size: 35px;
+
     
  }
 .descricao{
@@ -51,4 +52,52 @@ about-section{
     font-size: 30px;
    
  }
- 
+hobbies{ 
+    display: block;
+    width: 80%;
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 0 auto;
+    border-radius: 12px;
+    margin-bottom: 60px;
+
+ }
+
+ #titulo-sobre-mim {
+    font-size: 35px;
+    
+ }
+.descricao{
+    font-size: 20px;
+    
+}
+.titulo-sobre-mim {
+    font-size: 30px;
+   
+ }
+ ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+ }
+
+ li {
+    background-color:rgb(209, 216, 216);
+    padding: 12px;
+    border-left: 4px solid black;
+    font-size: 16px;
+    min-width: 80px;
+ }
+
+ li:houver{
+    background-color: rgb(209, 216, 216);
+    transform: translateX(5px);
+    transition: all 0.3s ease ;
+ }
+ #titulo-hobbies {
+    font-size: 40px;
+    border-bottom: 2px solid rgb(209, 216, 216);;
+    margin-bottom: 20px;
+    
+ }
