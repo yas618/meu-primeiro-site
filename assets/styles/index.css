@@ -21,7 +21,7 @@ header {
 }
 
 main{
-    background-color:rgb(209, 216, 216);
+    background-color:rgb(201, 212, 212);
     padding: 48px 38px;
     width: 100%;
     flex: 1 ;
@@ -31,7 +31,7 @@ main{
 about-section{ 
     display: block;
     width: 80%;
-    background-color: aliceblue;
+    background-color: rgb(251, 255, 255);
     padding: 40px;
     margin: 0 auto;
     border-radius: 12px;
@@ -41,40 +41,32 @@ about-section{
 
  #titulo-sobre-mim {
     font-size: 35px;
-
-    
+    width: 80%;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
  }
 .descricao{
     font-size: 20px;
     
 }
-.titulo-sobre-mim {
-    font-size: 30px;
-   
- }
+
 hobbies{ 
     display: block;
     width: 80%;
     background-color: aliceblue;
-    padding: 40px;
+    padding: 45px;
     margin: 0 auto;
-    border-radius: 12px;
-    margin-bottom: 60px;
+    border-radius: 18px;
+    margin-bottom: 66px;
 
  }
 
- #titulo-sobre-mim {
-    font-size: 35px;
-    
- }
+
 .descricao{
     font-size: 20px;
     
 }
-.titulo-sobre-mim {
-    font-size: 30px;
-   
- }
+
  ul {
     list-style: none;
     padding: 0;
@@ -83,7 +75,7 @@ hobbies{
  }
 
  li {
-    background-color:rgb(209, 216, 216);
+    background-color:rgb(27, 143, 143);
     padding: 12px;
     border-left: 4px solid black;
     font-size: 16px;
@@ -91,13 +83,62 @@ hobbies{
  }
 
  li:houver{
-    background-color: rgb(209, 216, 216);
+    background-color: rgb(246, 247, 247);
     transform: translateX(5px);
     transition: all 0.3s ease ;
  }
  #titulo-hobbies {
-    font-size: 40px;
-    border-bottom: 2px solid rgb(209, 216, 216);;
+    font-size: 45px;
+    border-bottom: 2px solid rgb(230, 235, 240);;
     margin-bottom: 20px;
     
+ }
+ contact {
+   display:block;
+   background-color: rgb(230, 235, 240);
+   width: 80%;
+   margin : 0 auto;
+   padding: 40px;
+   border-radius: 12px;
+   margin-top: 40px;
+ }
+ 
+ contact h2 { 
+   margin-bottom: 8px;
+   font-size: 30px;
+   text-align: center;
+ }
+
+ contact p {
+   text-align: center;
+   font-size: 22px;
+ }
+
+ contact a {
+   color: #235f55;
+   text-decoration: none;
+   padding: 0.5rem 1rem;
+   margin: 0 0.5rem;
+   border: 2px solid #2c6458;
+   border-radius: 25px;
+   display: inline-block;
+   transition: all 0.3s ease;
+ }
+
+ contact a:hover {
+   background-color: #1e968c;
+   color: rgb(230, 235, 240);
+   transform: translateY(-2px);
+
+ }
+
+ footer{
+    background-color: black;
+    color: aliceblue;
+    padding: 2rem;
+    width: 100%;
+ }
+
+ footer P{
+    font-size: 1rem;
  }
