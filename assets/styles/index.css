@@ -42,7 +42,7 @@ about-section{
  #titulo-sobre-mim {
     font-size: 35px;
     width: 80%;
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(5, 110, 117);
     margin-bottom: 20px;
  }
 .descricao{
@@ -51,6 +51,7 @@ about-section{
 }
 
 hobbies{ 
+
     display: block;
     width: 80%;
     background-color: rgb(230, 235, 240);
