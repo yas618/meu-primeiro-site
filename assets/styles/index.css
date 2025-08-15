@@ -31,7 +31,7 @@ main{
 about-section{ 
     display: block;
     width: 80%;
-    background-color: rgb(246, 253, 253);
+    background-color:rgb(230, 235, 240);
     padding: 40px;
     margin: 0 auto;
     border-radius: 12px;
@@ -53,7 +53,7 @@ about-section{
 hobbies{ 
     display: block;
     width: 80%;
-    background-color: aliceblue;
+    background-color: rgb(230, 235, 240);
     padding: 45px;
     margin: 0 auto;
     border-radius: 18px;
@@ -83,13 +83,13 @@ hobbies{
  }
 
  li:houver{
-    background-color: rgb(246, 247, 247);
+    background-color: rgb(233, 235, 236);
     transform: translateX(5px);
     transition: all 0.3s ease ;
  }
  #titulo-hobbies {
     font-size: 45px;
-    border-bottom: 2px solid rgb(230, 235, 240);;
+    border-bottom: 2px solid rgb(230, 235, 240);
     margin-bottom: 20px;
     
  }
@@ -128,7 +128,7 @@ hobbies{
  contact a:hover {
    background-color: #1e968c;
    color: rgb(230, 235, 240);
-   transform: translateY(-2px);
+   transform: translateY(-1px);
 
  }
 
@@ -137,8 +137,110 @@ hobbies{
     color: aliceblue;
     padding: 2rem;
     width: 100%;
+    text-align: center;
  }
 
  footer P{
     font-size: 1rem;
  }
+
+ /* ================================= */
+/*        🔥 RESPONSIVIDADE 🔥        */
+/* ================================= */
+@media (max-width: 1024px) {
+    header {
+        font-size: x-large;
+        padding: 40px;
+    }
+
+    #titulo-sobre-mim,
+    .texto-sobre-mim,
+    about-section,
+    hobbies,
+    contact {
+        width: 90%;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    li {
+        min-width: unset;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: large;
+        padding: 30px;
+    }
+
+    #titulo-sobre-mim {
+        font-size: 28px;
+    }
+
+    .texto-sobre-mim {
+        font-size: 20px;
+    }
+
+    contact h2 {
+        font-size: 24px;
+    }
+
+    contact p {
+        font-size: 18px;
+    }
+
+    contact a {
+        display: block;
+        margin: 10px auto;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: medium;
+        padding: 15px;
+        text-align: center;
+    }
+
+    #titulo-sobre-mim {
+        font-size: 26px;
+        margin-top: 20px;
+    }
+
+    .texto-sobre-mim {
+        font-size: 16px;
+    }
+
+    about-section,
+    hobbies,
+    contact {
+        width: 95%;
+        padding: 15px;
+    }
+
+    ul {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    li {
+        font-size: 14px;
+        width: 100%;
+        text-align: left;
+    }
+
+    contact a {
+        font-size: 14px;
+        padding: 0.5rem;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+    }
+}
